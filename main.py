@@ -13,6 +13,11 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
     print('first use Pycharm ')
-    x = [1, 2, 3]
+
+    import numpy as np
+    x = np.array([1, 2, 3])
     print(x)
+    ratio = 3
+    result_x = x * ratio
+    print(result_x)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
